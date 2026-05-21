@@ -333,11 +333,159 @@ const monumentImages = {
     gallery: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxVTeEd4tgF7HlQm9GO0dPqCzb_c3OHZvRFw&s'],
   },
 
+  'tok-kala': {
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiIRAgmpFi1uiAymhc2xc5Ff1ScNRYkO3U2Q&s',
+    gallery: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiIRAgmpFi1uiAymhc2xc5Ff1ScNRYkO3U2Q&s',
+    ],
+  },
+
+  'ajiniyaz-monument': {
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpJ8Kc4nSqUDabyVD0QH1amGp5kygWrnhLQ&s',
+    gallery: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpJ8Kc4nSqUDabyVD0QH1amGp5kygWrnhLQ&s', 'https://yandex.ru/maps/org/azhiniyaz_kosybay_uly/163385003187/panorama/'
+    ],
+  },
+
+  'berdakh-monument': {
+    cover:   'https://yandex.ru/maps/org/berdakh_kargabay_uly/178202417001/',
+    gallery: [
+      'https://yandex.ru/maps/org/berdakh_kargabay_uly/178202417001/','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3sYWLyvPxgXsy3y_rgAos8SUYCkg74hagw&s'
+    ],
+  },
+
+  'savitsky-monument': {
+    cover:   'https://podrobno.uz/cat/calche/v-nukuse-otmetili-den-rozhdeniya-igorya-savitskogo/',
+    gallery: [
+      'https://podrobno.uz/cat/calche/v-nukuse-otmetili-den-rozhdeniya-igorya-savitskogo/',
+    ],
+  }, 
+
+  'wwii-memorial': {
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBXiDJvPHQzMen55NziGBpKCMdExzNbj-BLw&s',
+    gallery: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBXiDJvPHQzMen55NziGBpKCMdExzNbj-BLw&s',
+    ],
+  },
+
+  'afghan-war-memorial': {
+    cover:   'https://www.gazeta.uz/media/img/2017/02/BukRzf14872541921295_b.jpg',
+    gallery: [
+      'https://www.gazeta.uz/media/img/2017/02/BukRzf14872541921295_b.jpg',
+    ],
+  },
+
+  'independence-monument': {
+    cover:   'https://thumbs.dreamstime.com/b/arch-independence-square-nukus-mustaqillik-maydoni-city-karakalpakstan-region-uzbekistan-227658101.jpg',
+    gallery: [
+      'https://thumbs.dreamstime.com/b/arch-independence-square-nukus-mustaqillik-maydoni-city-karakalpakstan-region-uzbekistan-227658101.jpg',
+    ],
+  }, 
+  
+  'jirau-monument': {
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrVk-9UQkywcaDzuVjbOL4B-1rm-EVw834w&s',
+    gallery: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlrVk-9UQkywcaDzuVjbOL4B-1rm-EVw834w&s',
+    ],
+  },
+
+'alpamys-monument': {
+    cover:   'https://c8.alamy.com/comp/T82PDG/a-monument-to-the-ancient-turkic-epic-or-dastan-alpamish-also-spelled-as-alpamysh-or-alpamis-and-in-uzbek-alpomish-situated-in-a-park-in-the-city-of-termez-in-surkhandarya-or-surxondaryo-region-in-uzbekistan-T82PDG.jpg',
+    gallery: [
+      'https://c8.alamy.com/comp/T82PDG/a-monument-to-the-ancient-turkic-epic-or-dastan-alpamish-also-spelled-as-alpamysh-or-alpamis-and-in-uzbek-alpomish-situated-in-a-park-in-the-city-of-termez-in-surkhandarya-or-surxondaryo-region-in-uzbekistan-T82PDG.jpg',
+    ],
+  },
+
+  'fishermen-monument': {
+    cover:   'https://knadmin.beoblood.kz/uploads/313034472_417804330540817_732092344542016598_n_f7af714396.jpg',
+    gallery: [
+      'https://knadmin.beoblood.kz/uploads/313034472_417804330540817_732092344542016598_n_f7af714396.jpg',
+    ],
+  },
+
+'amudarya-monument': {
+    cover:   'https://russian.eurasianet.org/sites/default/files/styles/article/public/2022-11/1-Trilling-6249_0.jpg.jpg?itok=eLUjr9kX',
+    gallery: [
+      'https://russian.eurasianet.org/sites/default/files/styles/article/public/2022-11/1-Trilling-6249_0.jpg.jpg?itok=eLUjr9kX',
+    ],
+  },
+
+  'kalalygyr': {
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/1753246902459.png',
+    gallery: [
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/1753246902459.png',
+    ],
+  },
+
+'kavat-kala-kh': {
+    cover:   'https://people-travels.com/images/Nukus/Kavat-Kala-fortress.jpg',
+    gallery: [
+      'https://people-travels.com/images/Nukus/Kavat-Kala-fortress.jpg',
+    ],
+  }, 
+  
+  'qumboskan-kala': {
+    cover:   'https://silkadv.com/sites/default/files/0_2_59r34.jpg',
+    gallery: [
+      'https://silkadv.com/sites/default/files/0_2_59r34.jpg',
+    ],
+  },
+
+  'constitution-monument': {
+    cover:   'https://ru.wikipedia.org/wiki/%D0%96%D0%BE%D0%BA%D0%B0%D1%80%D0%B3%D1%8B_%D0%9A%D0%B5%D0%BD%D0%B5%D1%81',
+    gallery: [
+      'https://ru.wikipedia.org/wiki/%D0%96%D0%BE%D0%BA%D0%B0%D1%80%D0%B3%D1%8B_%D0%9A%D0%B5%D0%BD%D0%B5%D1%81',
+    ],
+  },
+
+  'friendship-monument': {
+    cover:   'https://eurasica.ru/gallery/image/1829-%D1%85%D0%B0%D0%BB%D1%8B%D2%9B%D0%BB%D0%B0%D1%80-%D0%B4%D0%BE%D1%81%D0%BB%D1%8B%D2%93%D1%8B-%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%8B-%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%B4%D1%80%D1%83%D0%B6%D0%B1%D0%B0-%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2-%D0%B3-%D0%BD%D1%83%D0%BA%D1%83%D1%81/?do=download',
+    gallery: [
+      'https://eurasica.ru/gallery/image/1829-%D1%85%D0%B0%D0%BB%D1%8B%D2%9B%D0%BB%D0%B0%D1%80-%D0%B4%D0%BE%D1%81%D0%BB%D1%8B%D2%93%D1%8B-%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%8B-%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%B4%D1%80%D1%83%D0%B6%D0%B1%D0%B0-%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2-%D0%B3-%D0%BD%D1%83%D0%BA%D1%83%D1%81/?do=download',
+    ],
+  },
+
+  'teachers-monument': {
+    cover:   'https://cdn.uza.uz/2024/10/01/21/07/eSJ3hLOROiYKnW0BmwW0J2PVSepIgpY7_front.jpg',
+    gallery: [
+      'https://cdn.uza.uz/2024/10/01/21/07/eSJ3hLOROiYKnW0BmwW0J2PVSepIgpY7_front.jpg',
+    ],
+  },
+
+  'aral-ecology-monument': {
+    cover:   'https://novastan.org/en/wp-content/uploads/sites/8/2021/06/15kn.jpg',
+    gallery: [
+      'https://novastan.org/en/wp-content/uploads/sites/8/2021/06/15kn.jpg',
+    ],
+  },
+
+  'caravan-route': {
+    cover:   'https://marakandatravel.asia/wp-content/uploads/2019/11/8.jpg',
+    gallery: [
+      'https://marakandatravel.asia/wp-content/uploads/2019/11/8.jpg',
+    ],
+  },
+'zoroastrian-temples': {
+    cover:   'https://api.society.uz/media/1111photo_2024-04-02_14-21-37_2_1.webp',
+    gallery: [
+      'https://api.society.uz/media/1111photo_2024-04-02_14-21-37_2_1.webp',
+    ],
+  },
+
+  'ellikkala-walls': {
+    cover:   'https://lh6.googleusercontent.com/proxy/JiVDR2kAy-CSfv4ijwH9o2TUAAvKgG1L9Oz9xVviTG5031InaieKT6f-UsFJOdPvPOH2hDBzgAKdaUSHHaa7YmkbQhvnZQqmS1D-gVjL_kdqXfzwCwJSi2fk47M',
+    gallery: [
+      'https://lh6.googleusercontent.com/proxy/JiVDR2kAy-CSfv4ijwH9o2TUAAvKgG1L9Oz9xVviTG5031InaieKT6f-UsFJOdPvPOH2hDBzgAKdaUSHHaa7YmkbQhvnZQqmS1D-gVjL_kdqXfzwCwJSi2fk47M',
+    ],
+  },
+
   'chimbay': {
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBgDIDLHIrBnW3M5-SlseznUJzhYwe1xJ0A&s',
     gallery: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBgDIDLHIrBnW3M5-SlseznUJzhYwe1xJ0A&s'],
   },
 };
+
+
 
 export function getMonumentImage(id) {
   return monumentImages[id]?.cover || images.hero;
@@ -348,3 +496,4 @@ export function getMonumentGallery(id) {
   if (!entry) return [images.hero];
   return entry.gallery?.length ? entry.gallery : [entry.cover];
 }
+
