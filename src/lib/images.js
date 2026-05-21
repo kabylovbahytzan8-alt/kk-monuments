@@ -193,9 +193,9 @@ const monumentImages = {
   },
 
   'mazlumkhan-sulu': {
-    cover: 'https://uzbekistan.travel/storage/app/media/uploaded-files/mizdahkan2.jpg',
+    cover: 'https://uzbekistan.travel/storage/app/media/Otabek/Turli%20xil/Mazlumxon%20sulu%20mavzaleyi/cropped-images/%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9%20%D0%9C%D0%B0%D0%B7%D0%BB%D1%8B%D0%BC%D1%85%D0%B0%D0%BD%20%D1%81%D1%83%D0%BB%D1%83_2-0-0-0-0-1724915805.jpg',
     gallery: [
-      'https://uzbekistan.travel/storage/app/media/uploaded-files/mizdahkan2.jpg',
+      ,
       'https://uzbekistan.travel/storage/app/media/Otabek/Turli%20xil/Mazlumxon%20sulu%20mavzaleyi/cropped-images/%D0%9C%D0%B0%D0%B2%D0%B7%D0%BE%D0%BB%D0%B5%D0%B9%20%D0%9C%D0%B0%D0%B7%D0%BB%D1%8B%D0%BC%D1%85%D0%B0%D0%BD%20%D1%81%D1%83%D0%BB%D1%83_2-0-0-0-0-1724915805.jpg',
     ],
   },
@@ -208,8 +208,8 @@ const monumentImages = {
   },
 
   'khoja-ishan': {
-    cover: 'https://uz.gorodwiki.ru/nukus/karakum-ishan-527520-otzyvy',
-    gallery: ['https://uz.gorodwiki.ru/nukus/karakum-ishan-527520-otzyvy', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktJ8JB3f3RKFCq367ktXjT9HgsNrScrFaYg&s'],
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktJ8JB3f3RKFCq367ktXjT9HgsNrScrFaYg&s',
+    gallery: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktJ8JB3f3RKFCq367ktXjT9HgsNrScrFaYg&s'],
   },
 
   'keshirmes-baba': {
@@ -237,8 +237,8 @@ const monumentImages = {
   },
 
   'jomart-kassab': {
-    cover: 'https://xodjeyli.uz/index.php%3Fid=6&lang=ru.html',
-    gallery: ['https://xodjeyli.uz/index.php%3Fid=6&lang=ru.html', 'https://static-pano.maps.yandex.ru/v1/?panoid=1428015497_795495398_23_1571124692&size=500%2C240&azimuth=7.2&tilt=10&api_key=maps&signature=RCpRUSGuw488-BORSofba22CsnKee6A6ewOCNHLcSg0='],
+    cover: 'https://static-pano.maps.yandex.ru/v1/?panoid=1428015497_795495398_23_1571124692&size=500%2C240&azimuth=7.2&tilt=10&api_key=maps&signature=RCpRUSGuw488-BORSofba22CsnKee6A6ewOCNHLcSg0=',
+    gallery: ['https://static-pano.maps.yandex.ru/v1/?panoid=1428015497_795495398_23_1571124692&size=500%2C240&azimuth=7.2&tilt=10&api_key=maps&signature=RCpRUSGuw488-BORSofba22CsnKee6A6ewOCNHLcSg0='],
   },
 
   'qubla-ustyurt': {
@@ -255,8 +255,8 @@ const monumentImages = {
   },
 
   'state-museum': {
-    cover: 'https://karakalpakstan.travel/data/uploads/00_media/2025/may/photo_2025-06-03_12-01-58.jpg',
-    gallery: ['https://karakalpakstan.travel/data/uploads/00_media/2025/may/photo_2025-06-03_12-01-58.jpg', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgmq7PYChKQ7q8jeK3AcScO30f0P9tk76mw&s'],
+    cover: 'https://historical-museum.uz/museum.webp',
+    gallery: ['https://historical-museum.uz/museum.webp'],
   },
 
   'berdakh-museum': {
@@ -317,8 +317,8 @@ const monumentImages = {
   },
 
   'khodjeyli': {
-    cover: 'https://www.shutterstock.com/search/khodjeyli',
-    gallery: ['https://www.shutterstock.com/search/khodjeyli', 
+    cover: 'https://t4.ftcdn.net/jpg/04/52/04/19/360_F_452041973_3wdZw9GSZjEcWwgnFG3dspCzStwSzo90.jpg',
+    gallery: [
       'https://t4.ftcdn.net/jpg/04/52/04/19/360_F_452041973_3wdZw9GSZjEcWwgnFG3dspCzStwSzo90.jpg'
     ],
   },
@@ -348,4 +348,3 @@ export function getMonumentGallery(id) {
   if (!entry) return [images.hero];
   return entry.gallery?.length ? entry.gallery : [entry.cover];
 }
-
