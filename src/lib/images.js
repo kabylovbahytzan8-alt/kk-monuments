@@ -348,16 +348,16 @@ const monumentImages = {
   },
 
   'berdakh-monument': {
-    cover:   'https://yandex.ru/maps/org/berdakh_kargabay_uly/178202417001/',
+    cover:   'https://lh5.googleusercontent.com/proxy/4XdcPmUXp3f4rJXjSOQBjBf0MEjqirbuIXpAc-5KD409_gkNdr6qcld6fM4w2w7KV0Rf_mPe9O8RLSmrklYXksU9',
     gallery: [
-      'https://yandex.ru/maps/org/berdakh_kargabay_uly/178202417001/','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3sYWLyvPxgXsy3y_rgAos8SUYCkg74hagw&s'
+      'https://lh5.googleusercontent.com/proxy/4XdcPmUXp3f4rJXjSOQBjBf0MEjqirbuIXpAc-5KD409_gkNdr6qcld6fM4w2w7KV0Rf_mPe9O8RLSmrklYXksU9'
     ],
   },
 
   'savitsky-monument': {
-    cover:   'https://podrobno.uz/cat/calche/v-nukuse-otmetili-den-rozhdeniya-igorya-savitskogo/',
+    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwdt7PVsoWgMP5qIVbibDJJZbFr66SU33Vw&s',
     gallery: [
-      'https://podrobno.uz/cat/calche/v-nukuse-otmetili-den-rozhdeniya-igorya-savitskogo/',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwwdt7PVsoWgMP5qIVbibDJJZbFr66SU33Vw&s',
     ],
   }, 
 
@@ -432,16 +432,16 @@ const monumentImages = {
   },
 
   'constitution-monument': {
-    cover:   'https://ru.wikipedia.org/wiki/%D0%96%D0%BE%D0%BA%D0%B0%D1%80%D0%B3%D1%8B_%D0%9A%D0%B5%D0%BD%D0%B5%D1%81',
+    cover:   'https://joqargikenes.uz/media/slides/2025/04/29/header.jpg',
     gallery: [
-      'https://ru.wikipedia.org/wiki/%D0%96%D0%BE%D0%BA%D0%B0%D1%80%D0%B3%D1%8B_%D0%9A%D0%B5%D0%BD%D0%B5%D1%81',
+      'https://joqargikenes.uz/media/slides/2025/04/29/header.jpg',
     ],
   },
 
   'friendship-monument': {
-    cover:   'https://eurasica.ru/gallery/image/1829-%D1%85%D0%B0%D0%BB%D1%8B%D2%9B%D0%BB%D0%B0%D1%80-%D0%B4%D0%BE%D1%81%D0%BB%D1%8B%D2%93%D1%8B-%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%8B-%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%B4%D1%80%D1%83%D0%B6%D0%B1%D0%B0-%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2-%D0%B3-%D0%BD%D1%83%D0%BA%D1%83%D1%81/?do=download',
+    cover:   'https://2img.net/h/s018.radikal.ru/i522/1303/53/005449f576e9.jpg',
     gallery: [
-      'https://eurasica.ru/gallery/image/1829-%D1%85%D0%B0%D0%BB%D1%8B%D2%9B%D0%BB%D0%B0%D1%80-%D0%B4%D0%BE%D1%81%D0%BB%D1%8B%D2%93%D1%8B-%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%8B-%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%B4%D1%80%D1%83%D0%B6%D0%B1%D0%B0-%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2-%D0%B3-%D0%BD%D1%83%D0%BA%D1%83%D1%81/?do=download',
+      'https://2img.net/h/s018.radikal.ru/i522/1303/53/005449f576e9.jpg',
     ],
   },
 
