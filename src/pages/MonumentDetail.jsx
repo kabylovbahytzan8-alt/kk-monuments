@@ -8,6 +8,27 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, MapPin, Calendar, Navigation, Compass, Info, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
+const descriptions = {
+  ru: (name) => `${name} — один из замечательных памятников Каракалпакстана, представляющий богатое историческое наследие древней хорезмийской цивилизации. Расположенный в сердце региона, этот объект стал свидетелем многовековой истории и культурной эволюции.`,
+  en: (name) => `${name} is one of the remarkable monuments of Karakalpakstan, representing the rich historical heritage of the ancient Khorezm civilization. Located in the heart of the region, this site has witnessed centuries of human history and cultural evolution.`,
+  uz: (name) => `${name} — Qoraqalpogʻistonning ajoyib yodgorliklaridan biri boʻlib, qadimiy Xorazm sivilizatsiyasining boy tarixiy merosini ifodalaydi. Mintaqa markazida joylashgan bu joy asrlar davomida insoniyat tarixi va madaniy evolyutsiyasiga guvoh boʻlgan.`,
+  qq: (name) => `${name} — Qaraqalpaqstannıń ajayıp yadgorliklerinen biri bolıp, gadimgi Xorezm sivilizatsiyasınıń bay tariyxıy mırasın kórsetedi. Aymaqtıń oraylıq bóliminde ornalasqan bul jer ásirler dawamında adamzat tariyxı hám mádeniyet evolyutsiyasına guwа boldı.`,
+};
+
+const histories = {
+  ru: (century) => `Датируемый ${century}, этот памятник сыграл значительную роль в развитии Хорезмского региона. Археологические раскопки обнаружили слои истории нескольких цивилизаций — от ранних поселений до средневекового периода.`,
+  en: (century) => `Dating back to ${century}, this monument has played a significant role in the development of the Khorezm region. Archaeological excavations have revealed layers of history spanning multiple civilizations, from the earliest settlements to the medieval period.`,
+  uz: (century) => `${century} davriga oid bu yodgorlik Xorazm mintaqasining rivojlanishida muhim rol oʻynagan. Arxeologik qazishmalar dastlabki manzilgohlardan oʻrta asr davrigacha bir nechta sivilizatsiyalarni qamrab olgan tarix qatlamlarini ochib berdi.`,
+  qq: (century) => `${century} dáwirine tiyisli bul yadgorlik Xorezm aymaqınıń rawajlanıwında áhmiyetli rol oynadı. Arxeologiyalıq qazıw isleri dáslepki mekenlestiriwlerden orta ásir dáwirine shekem bir neshe sivilizatsiyalardı qamlap alǵan tariyx qatlamların ashıp berdı.`,
+};
+
+const facts = {
+  ru: ['Объект впервые задокументирован советскими археологами в 1930-х годах', 'ЮНЕСКО признало его культурное значение', 'Ежегодные археологические экспедиции продолжают находить новые артефакты'],
+  en: ['The site was first documented by Soviet archaeologists in the 1930s', 'UNESCO has recognized its cultural significance', 'Annual archaeological expeditions continue to uncover new artifacts'],
+  uz: ['Obyekt birinchi marta 1930-yillarda sovet arxeologlari tomonidan hujjatlashtirilgan', 'UNESCO uning madaniy ahamiyatini tan olgan', 'Yillik arxeologik ekspeditsiyalar yangi artefaktlarni ochishda davom etmoqda'],
+  qq: ['Obyekt birinshi ret 1930-jıllarda sovet arxeologlari tárepinen hújjetlestirilgen', 'YuNESKO onıń mádeniyet áhmiyetin moyınladı', 'Jıllıq arxeologiyalıq ekspeditsiyalar jaŋa artefaktlardı tabıwda dawam etpekte'],
+};
+
 export default function MonumentDetail() {
   const { id } = useParams();
   const { t, lang } = useI18n();
@@ -30,6 +51,7 @@ export default function MonumentDetail() {
     .slice(0, 3);
 
   const name = monument.name[lang] || monument.name.en;
+  const century = monument.century || (lang === 'ru' ? 'древних времён' : lang === 'uz' ? 'qadim zamonlar' : lang === 'qq' ? 'gadim zamanlar' : 'ancient times');
 
   return (
     <div className="min-h-screen">
@@ -72,7 +94,7 @@ export default function MonumentDetail() {
                 {t('monument.description')}
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                {name} is one of the remarkable monuments of Karakalpakstan, representing the rich historical heritage of the ancient Khorezm civilization. Located in the heart of the region, this site has witnessed centuries of human history and cultural evolution.
+                {(descriptions[lang] || descriptions.en)(name)}
               </p>
             </motion.section>
 
@@ -83,7 +105,7 @@ export default function MonumentDetail() {
                 {t('monument.history')}
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Dating back to {monument.century || 'ancient times'}, this monument has played a significant role in the development of the Khorezm region. Archaeological excavations have revealed layers of history spanning multiple civilizations, from the earliest settlements to the medieval period.
+                {(histories[lang] || histories.en)(century)}
               </p>
             </motion.section>
 
@@ -94,11 +116,7 @@ export default function MonumentDetail() {
                 {t('monument.interestingFacts')}
               </h2>
               <div className="space-y-3">
-                {[
-                  'The site was first documented by Soviet archaeologists in the 1930s',
-                  'UNESCO has recognized its cultural significance',
-                  'Annual archaeological expeditions continue to uncover new artifacts',
-                ].map((fact, i) => (
+                {(facts[lang] || facts.en).map((fact, i) => (
                   <div key={i} className="glass rounded-lg p-4 text-sm text-muted-foreground">
                     <span className="text-primary font-mono mr-2">0{i + 1}</span>
                     {fact}
