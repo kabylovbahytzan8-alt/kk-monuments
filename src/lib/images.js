@@ -295,3 +295,14 @@ const monumentImages = {
     cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/amudarya.jpg',
     gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/amudarya.jpg'],
   },
+};
+
+export function getMonumentImage(id) {
+  return monumentImages[id]?.cover || images.hero;
+}
+
+export function getMonumentGallery(id) {
+  const entry = monumentImages[id];
+  if (!entry) return [images.hero];
+  return entry.gallery?.length ? entry.gallery : [entry.cover];
+}
