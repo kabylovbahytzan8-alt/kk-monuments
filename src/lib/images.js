@@ -17,586 +17,281 @@ const monumentImages = {
   // ── Fortresses ──────────────────────────────────────────────────────────
 
   'chilpyk': {
-    cover:   'https://media.base44.com/images/public/6a0b00097f5888beaa46cec9/fe1d5adb8_generated_d933ea04.png',
+    cover:   'https://karakalpakstan.travel/data/uploads/00_media/2025/avgust/photo_2025-08-04_17-39-24.jpg',
     gallery: [
-      'https://media.base44.com/images/public/6a0b00097f5888beaa46cec9/fe1d5adb8_generated_d933ea04.png',
-      'https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&q=80',
-      'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
+      'https://karakalpakstan.travel/data/uploads/00_media/2025/avgust/photo_2025-08-04_17-39-24.jpg',
+      'https://ic.pics.livejournal.com/appassionata_lr/13101813/1771506/1771506_800.jpg',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/4a/e7/32/chilpyk-kala.jpg?w=900&h=-1&s=1',
     ],
   },
 
   // Ayaz-Kala — desert ruins, mud-brick ancient fortress
   'ayaz-kala': {
-    cover:   'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
+    cover:   'https://upload.wikimedia.org/wikipedia/commons/3/33/Ayaz-Kala-2.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-      'https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&q=80',
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/3/33/Ayaz-Kala-2.jpg',
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/ayaz%20kala3.jpg',
+      'https://legacy.uz//media/news/0/-r67a1m.jpg',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/ayaz-kala3.jpg',
     ],
   },
 
   // Toprak-Kala — large mudbrick ruins on flat desert plain
   'toprak-kala': {
-    cover:   'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-      'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Toprak-Kala.jpg/1280px-Toprak-Kala.jpg',
+      'https://www.orexca.com/img/uzbekistan/toprak-kala1.jpg',
     ],
   },
 
-  // Koi Krylgan Kala — circular fortress ruins
   'koi-krylgan-kala': {
-    cover:   'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&q=80',
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/koy-krylgan-kala.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&q=80',
-      'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/koy-krylgan-kala.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Koy_Krylgan_Kala.jpg/1280px-Koy_Krylgan_Kala.jpg',
     ],
   },
 
-  // Mizdakhan — ancient necropolis with domed mausoleums
   'mizdakhan': {
-    cover:   'https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&q=80',
+    cover:   'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ancient_Complex_Mizdahkan.jpg/1280px-Ancient_Complex_Mizdahkan.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&q=80',
-      'https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=1200&q=80',
-      'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=1200&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ancient_Complex_Mizdahkan.jpg/1280px-Ancient_Complex_Mizdahkan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Necropolis_Mizdakhan_01.JPG/1280px-Necropolis_Mizdakhan_01.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Necropolis_Mizdakhan_03.JPG/1280px-Necropolis_Mizdakhan_03.JPG',
     ],
   },
 
-  // Gyaur-Kala — early fortress ruins Khorezm
   'gyaur-kala': {
-    cover:   'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/gyaur-kala.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-      'https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&q=80',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/gyaur-kala.jpg',
     ],
   },
 
-  // Janbas-Kala — desert fortress without towers
   'janbas-kala': {
-    cover:   'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1200&q=80',
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/janbas-kala.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1200&q=80',
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/janbas-kala.jpg',
     ],
   },
 
-  // Big Guldursun — large rectangular fortress ruins
   'big-guldursun': {
-    cover:   'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/guldursun-kala.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/guldursun-kala.jpg',
     ],
   },
 
-  // Small Guldursun — smaller sister fortress
   'small-guldursun': {
-    cover:   'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80',
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/guldursun-kala.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/guldursun-kala.jpg',
     ],
   },
 
-  // Kyzyl-Kala — red brick fortress tower
   'kyzyl-kala': {
-    cover:   'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80',
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/kyzyl-kala.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80',
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/kyzyl-kala.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kyzyl-Kala_fortress.jpg/1280px-Kyzyl-Kala_fortress.jpg',
     ],
   },
 
-  // Pil-Kala — fortress ruins desert
   'pil-kala': {
-    cover:   'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/ayaz-kala3.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/ayaz-kala3.jpg'],
   },
 
-  // Bazar-Kala — ancient fortress
   'bazar-kala': {
-    cover:   'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&q=80',
-    ],
+    cover:   'https://www.orexca.com/img/uzbekistan/ayaz-kala2.jpg',
+    gallery: ['https://www.orexca.com/img/uzbekistan/ayaz-kala2.jpg'],
   },
 
-  // Angka-Kala — archaeological ruins
   'angka-kala': {
-    cover:   'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/koy-krylgan-kala.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/koy-krylgan-kala.jpg'],
   },
 
-  // Kurgashin-Kala — fortress ruins
   'kurgashin-kala': {
-    cover:   'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg'],
   },
 
-  // Burly-Kala — desert fortress
   'burly-kala': {
-    cover:   'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/janbas-kala.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/janbas-kala.jpg'],
   },
 
-  // Aqshakhan-Kala — fortress ruins
   'aqshakhan-kala': {
-    cover:   'https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&q=80',
-    ],
+    cover:   'https://www.orexca.com/img/uzbekistan/toprak-kala1.jpg',
+    gallery: ['https://www.orexca.com/img/uzbekistan/toprak-kala1.jpg'],
   },
 
-  // Duman-Kala
   'duman-kala': {
-    cover:   'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/gyaur-kala.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/gyaur-kala.jpg'],
   },
 
-  // Davkesken — medieval ruins
   'davkesken': {
-    cover:   'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/kyzyl-kala.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/kyzyl-kala.jpg'],
   },
 
-  // Qavat-Kala
   'qavat-kala': {
-    cover:   'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/ayaz-kala3.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/ayaz-kala3.jpg'],
   },
 
-  // Kirk-Kyz — fortress ruins
   'kirk-kyz': {
-    cover:   'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    ],
+    cover:   'https://www.orexca.com/img/uzbekistan/ayaz-kala2.jpg',
+    gallery: ['https://www.orexca.com/img/uzbekistan/ayaz-kala2.jpg'],
   },
 
-  // ── Mausoleums & Shrines ─────────────────────────────────────────────────
-
-  // Sultan Uvays Bobo — mountain top sacred complex
   'sultan-uvays': {
-    cover:   'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&q=80',
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/sultan-uvays-bobo.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&q=80',
-      'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=1200&q=80',
-      'https://images.unsplash.com/photo-1542621334-a254cf47733d?w=1200&q=80',
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/sultan-uvays-bobo.jpg',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/sultan-uvays-bobo.jpg',
     ],
   },
 
-  // Mazlumkhan Sulu — ornate tiled mausoleum
   'mazlumkhan-sulu': {
-    cover:   'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=1200&q=80',
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/mizdahkan2.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1566438480900-0609be27a4be?w=1200&q=80',
-      'https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&q=80',
-      'https://images.unsplash.com/photo-1548584470-a6ae8fcbea6c?w=1200&q=80',
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/mizdahkan2.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Necropolis_Mizdakhan_01.JPG/1280px-Necropolis_Mizdakhan_01.JPG',
     ],
   },
 
-  // Shamun Nabi — sacred burial site
   'shamun-nabi': {
-    cover:   'https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&q=80',
-      'https://images.unsplash.com/photo-1548584470-a6ae8fcbea6c?w=1200&q=80',
-    ],
+    cover:   'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Necropolis_Mizdakhan_03.JPG/1280px-Necropolis_Mizdakhan_03.JPG',
+    gallery: ['https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Necropolis_Mizdakhan_03.JPG/1280px-Necropolis_Mizdakhan_03.JPG'],
   },
 
-  // Khoja Ishan Bobo — domed mausoleum
   'khoja-ishan': {
-    cover:   'https://images.unsplash.com/photo-1548584470-a6ae8fcbea6c?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1548584470-a6ae8fcbea6c?w=1200&q=80',
-      'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/sultan-uvays-bobo.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/sultan-uvays-bobo.jpg'],
   },
 
-  // Keshirmes Baba — shrine
   'keshirmes-baba': {
-    cover:   'https://images.unsplash.com/photo-1519955266818-0231b763bec4?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1519955266818-0231b763bec4?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/sultan-uvays-bobo.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/sultan-uvays-bobo.jpg'],
   },
 
-  // Erejep Khalifa — mosque
   'erejep-khalifa': {
-    cover:   'https://images.unsplash.com/photo-1542621334-a254cf47733d?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1542621334-a254cf47733d?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/mizdahkan2.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/mizdahkan2.jpg'],
   },
 
-  // Hakim Ata — medieval mausoleum complex
   'hakim-ata': {
-    cover:   'https://images.unsplash.com/photo-1561461056-b6a8cf38a2c5?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1561461056-b6a8cf38a2c5?w=1200&q=80',
-      'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/sultan-uvays-bobo.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/sultan-uvays-bobo.jpg'],
   },
 
-  // Mizdakhan Necropolis — graves ancient cemetery
   'mizdakhan-necropolis': {
-    cover:   'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=1200&q=80',
+    cover:   'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ancient_Complex_Mizdahkan.jpg/1280px-Ancient_Complex_Mizdahkan.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=1200&q=80',
-      'https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=1200&q=80',
-      'https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=1200&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ancient_Complex_Mizdahkan.jpg/1280px-Ancient_Complex_Mizdahkan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Necropolis_Mizdakhan_01.JPG/1280px-Necropolis_Mizdakhan_01.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Necropolis_Mizdakhan_03.JPG/1280px-Necropolis_Mizdakhan_03.JPG',
     ],
   },
 
-  // Jomart Kassab Hill — sacred hill site
   'jomart-kassab': {
-    cover:   'https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=1200&q=80',
-    ],
+    cover:   'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Necropolis_Mizdakhan_01.JPG/1280px-Necropolis_Mizdakhan_01.JPG',
+    gallery: ['https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Necropolis_Mizdakhan_01.JPG/1280px-Necropolis_Mizdakhan_01.JPG'],
   },
 
-  // Qubla Ustyurt — desert sacred shrines
   'qubla-ustyurt': {
-    cover:   'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&q=80',
-      'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/ustyurt-plateau.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/ustyurt-plateau.jpg'],
   },
 
-  // ── Nukus Monuments ──────────────────────────────────────────────────────
-
-  // Ajiniyaz — Karakalpak poet monument / urban statue
-  'ajiniyaz-monument': {
-    cover:   'https://images.unsplash.com/photo-1549421263-5ec394a5ad4c?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1549421263-5ec394a5ad4c?w=1200&q=80',
-    ],
-  },
-
-  // Berdakh — Karakalpak national poet monument
-  'berdakh-monument': {
-    cover:   'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80',
-    ],
-  },
-
-  // Savitsky monument — near museum
-  'savitsky-monument': {
-    cover:   'https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=1200&q=80',
-    ],
-  },
-
-  // WWII memorial
-  'wwii-memorial': {
-    cover:   'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=1200&q=80',
-    ],
-  },
-
-  // Afghan war memorial
-  'afghan-war-memorial': {
-    cover:   'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1200&q=80',
-    ],
-  },
-
-  // Independence monument
-  'independence-monument': {
-    cover:   'https://images.unsplash.com/photo-1549421263-5ec394a5ad4c?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1549421263-5ec394a5ad4c?w=1200&q=80',
-    ],
-  },
-
-  // Jirau monument — epic singer statue
-  'jirau-monument': {
-    cover:   'https://images.unsplash.com/photo-1543832923-44667a44c804?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1543832923-44667a44c804?w=1200&q=80',
-    ],
-  },
-
-  // Alpamys — epic hero statue
-  'alpamys-monument': {
-    cover:   'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80',
-    ],
-  },
-
-  // Fishermen of Aral Sea monument
-  'fishermen-monument': {
-    cover:   'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=1200&q=80',
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-    ],
-  },
-
-  // Amu Darya monument
-  'amudarya-monument': {
-    cover:   'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80',
-    ],
-  },
-
-  // ── Museums & Culture ────────────────────────────────────────────────────
-
-  // Savitsky Museum — art museum building / gallery interior
   'savitsky-museum': {
-    cover:   'https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=1200&q=80',
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/savitsky-museum-nukus.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=1200&q=80',
-      'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&q=80',
-      'https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1200&q=80',
-      'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?w=1200&q=80',
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/savitsky-museum-nukus.jpg',
+      'https://www.advantour.com/img/uzbekistan/nukus/savitsky-museum.jpg',
     ],
   },
 
-  // Karakalpakstan State Museum
   'state-museum': {
-    cover:   'https://images.unsplash.com/photo-1499364615650-ec38552f4f34?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1499364615650-ec38552f4f34?w=1200&q=80',
-      'https://images.unsplash.com/photo-1519608425089-7f3bfa6f6bb8?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/nukus/nukus-museum.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/nukus/nukus-museum.jpg'],
   },
 
-  // Berdakh Museum
   'berdakh-museum': {
-    cover:   'https://images.unsplash.com/photo-1519608425089-7f3bfa6f6bb8?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1519608425089-7f3bfa6f6bb8?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/nukus/nukus-museum.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/nukus/nukus-museum.jpg'],
   },
 
-  // Ethnographic Museum — traditional crafts, artifacts
   'ethnographic-museum': {
-    cover:   'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&q=80',
-      'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/savitsky-museum-nukus.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/savitsky-museum-nukus.jpg'],
   },
 
-  // Ellikkala Archaeological Museum
   'ellikkala-museum': {
-    cover:   'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1491156855053-9cdff72c7f85?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg'],
   },
 
-  // ── Khorezm fortresses ────────────────────────────────────────────────────
-
-  'kalalygyr': {
-    cover:   'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    ],
-  },
-
-  'kavat-kala-kh': {
-    cover:   'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1569429593410-b498b3fb3387?w=1200&q=80',
-    ],
-  },
-
-  'tok-kala': {
-    cover:   'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=80',
-    ],
-  },
-
-  'qumboskan-kala': {
-    cover:   'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&q=80',
-    ],
-  },
-
-  // ── Nature ────────────────────────────────────────────────────────────────
-
-  // Aral Sea — dried seabed, ships in desert
   'aral-sea': {
-    cover:   'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/aral-sea.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-      'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80',
-      'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=1200&q=80',
-      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80',
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/aral-sea.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Aral_Sea_1989-2014.jpg/1280px-Aral_Sea_1989-2014.jpg',
     ],
   },
 
-  // Muynak ship graveyard — rusting ships in desert sand
   'muynak-ships': {
-    cover:   'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/muynak-ship-cemetery.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-      'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80',
-      'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=1200&q=80',
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/muynak-ship-cemetery.jpg',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/muynak-ships.jpg',
     ],
   },
 
-  // Ustyurt Plateau — dramatic cliffs, vast steppe
   'ustyurt-plateau': {
-    cover:   'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&q=80',
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/ustyurt-plateau.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&q=80',
-      'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1200&q=80',
-      'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80',
+      'https://uzbekistan.travel/storage/app/media/uploaded-files/ustyurt-plateau.jpg',
+      'https://www.advantour.com/img/uzbekistan/karakalpakstan/ustyurt.jpg',
     ],
   },
 
-  // Amu Darya delta — river delta wetlands
   'amudarya-delta': {
-    cover:   'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80',
-      'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/amudarya.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/amudarya.jpg'],
   },
 
-  // Sudochye Lake — wetlands, birds, reeds
   'sudochye-lake': {
-    cover:   'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&q=80',
-      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/sudochye-lake.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/sudochye-lake.jpg'],
   },
-
-  // ── Settlements ───────────────────────────────────────────────────────────
 
   'muynak': {
-    cover:   'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=1200&q=80',
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/muynak-ship-cemetery.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/muynak-ship-cemetery.jpg'],
   },
 
   'khodjeyli': {
-    cover:   'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&q=80',
-    ],
+    cover:   'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ancient_Complex_Mizdahkan.jpg/1280px-Ancient_Complex_Mizdahkan.jpg',
+    gallery: ['https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ancient_Complex_Mizdahkan.jpg/1280px-Ancient_Complex_Mizdahkan.jpg'],
   },
 
   'turtkul': {
-    cover:   'https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1548013146-72479768bada?w=1200&q=80',
-    ],
+    cover:   'https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg',
+    gallery: ['https://www.advantour.com/img/uzbekistan/karakalpakstan/toprak-kala.jpg'],
   },
 
   'beruni': {
-    cover:   'https://images.unsplash.com/photo-1543832923-44667a44c804?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1543832923-44667a44c804?w=1200&q=80',
-    ],
+    cover:   'https://www.orexca.com/img/uzbekistan/toprak-kala1.jpg',
+    gallery: ['https://www.orexca.com/img/uzbekistan/toprak-kala1.jpg'],
   },
 
   'chimbay': {
-    cover:   'https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=1200&q=80',
-    ],
+    cover:   'https://uzbekistan.travel/storage/app/media/uploaded-files/amudarya.jpg',
+    gallery: ['https://uzbekistan.travel/storage/app/media/uploaded-files/amudarya.jpg'],
   },
-
-  // ── Modern ────────────────────────────────────────────────────────────────
-
-  'constitution-monument': {
-    cover:   'https://images.unsplash.com/photo-1549421263-5ec394a5ad4c?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1549421263-5ec394a5ad4c?w=1200&q=80',
-    ],
-  },
-
-  'friendship-monument': {
-    cover:   'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80',
-    ],
-  },
-
-  'teachers-monument': {
-    cover:   'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1200&q=80',
-    ],
-  },
-
-  'aral-ecology-monument': {
-    cover:   'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=1200&q=80',
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-    ],
-  },
-
-  // ── Other ─────────────────────────────────────────────────────────────────
-
-  'caravan-route': {
-    cover:   'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1200&q=80',
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    ],
-  },
-
-  'zoroastrian-temples': {
-    cover:   'https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=1200&q=80',
-      'https://images.unsplash.com/photo-1561461056-b6a8cf38a2c5?w=1200&q=80',
-    ],
-  },
-
-  'ellikkala-walls': {
-    cover:   'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    gallery: [
-      'https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=80',
-    ],
-  },
-};
-
-// ─── Public API ─────────────────────────────────────────────────────────────
-
-/** Returns the cover image URL for a monument card / hero */
-export function getMonumentImage(id) {
-  return monumentImages[id]?.cover || images.hero;
-}
-
-/** Returns gallery array for a monument detail page (falls back to [cover]) */
-export function getMonumentGallery(id) {
-  const entry = monumentImages[id];
-  if (!entry) return [images.hero];
-  return entry.gallery?.length ? entry.gallery : [entry.cover];
-}
