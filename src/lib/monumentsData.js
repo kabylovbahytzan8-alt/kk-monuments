@@ -12,23 +12,23 @@ export const categories = [
 
 export const monuments = [
   // Fortresses
-  { id: 'ayaz-kala', name: { ru: 'Аяз-Кала', en: 'Ayaz-Kala', uz: 'Ayoz-Qalʼa', qq: 'Ayaz-Qala' }, category: 'fortresses', coords: [41.82, 60.83], century: 'IV-III в. до н.э.', featured: true, wonder: true },
-  { id: 'toprak-kala', name: { ru: 'Топрак-Кала', en: 'Toprak-Kala', uz: 'Toprak-Qalʼa', qq: 'Topıraq-Qala' }, category: 'fortresses', coords: [41.93, 60.82], century: 'I-VI в. н.э.', featured: true, wonder: true },
-  { id: 'koi-krylgan-kala', name: { ru: 'Кой-Крылган-Кала', en: 'Koi Krylgan Kala', uz: 'Koy Qırılgʻan Qalʼa', qq: 'Koy Qırılǵan Qala' }, category: 'fortresses', coords: [41.75, 60.78], century: 'IV в. до н.э.', featured: true, wonder: true },
-  { id: 'mizdakhan', name: { ru: 'Миздахкан', en: 'Mizdakhan', uz: 'Mizdaxon', qq: 'Mizdaxan' }, category: 'fortresses', coords: [42.45, 59.60], century: 'IV в. до н.э.', featured: true },
-  { id: 'gyaur-kala', name: { ru: 'Гяур-Кала', en: 'Gyaur-Kala', uz: 'Gʻavr-Qalʼa', qq: 'Gavr-Qala' }, category: 'fortresses', coords: [41.88, 60.69], century: 'VI-V в. до н.э.', featured: false },
-  { id: 'janbas-kala', name: { ru: 'Джанбас-Кала', en: 'Janbas-Kala', uz: 'Jonbos-Qalʼa', qq: 'Janbas-Qala' }, category: 'fortresses', coords: [41.80, 60.78], century: 'IV в. до н.э.', featured: false },
-  { id: 'big-guldursun', name: { ru: 'Большой Гулдурсун', en: 'Big Guldursun', uz: 'Katta Guldursun', qq: 'Ullı Guldursun' }, category: 'fortresses', coords: [41.85, 60.75], century: 'I в. до н.э.', featured: false },
-  { id: 'small-guldursun', name: { ru: 'Малый Гулдурсун', en: 'Small Guldursun', uz: 'Kichik Guldursun', qq: 'Kishi Guldursun' }, category: 'fortresses', coords: [41.84, 60.76], century: 'I в. до н.э.' },
-  { id: 'kyzyl-kala', name: { ru: 'Кызыл-Кала', en: 'Kyzyl-Kala', uz: 'Qizil-Qalʼa', qq: 'Qızıl-Qala' }, category: 'fortresses', coords: [41.90, 60.80], century: 'I-II в. н.э.' },
-  { id: 'pil-kala', name: { ru: 'Пиль-Кала', en: 'Pil-Kala', uz: 'Pil-Qalʼa', qq: 'Pil-Qala' }, category: 'fortresses', coords: [41.78, 60.72], century: 'IV-III в. до н.э.' },
-  { id: 'bazar-kala', name: { ru: 'Базар-Кала', en: 'Bazar-Kala', uz: 'Bozor-Qalʼa', qq: 'Bazar-Qala' }, category: 'fortresses', coords: [41.82, 60.70], century: 'IV в. до н.э.' },
-  { id: 'angka-kala', name: { ru: 'Ангка-Кала', en: 'Angka-Kala', uz: 'Angka-Qalʼa', qq: 'Aŋqa-Qala' }, category: 'fortresses', coords: [41.76, 60.65], century: 'III в. до н.э.' },
-  { id: 'kurgashin-kala', name: { ru: 'Кургашин-Кала', en: 'Kurgashin-Kala', uz: 'Kurgoshin-Qalʼa', qq: 'Qurǵashın-Qala' }, category: 'fortresses', coords: [41.79, 60.68], century: 'II в. до н.э.' },
-  { id: 'burly-kala', name: { ru: 'Бурлы-Кала', en: 'Burly-Kala', uz: 'Burliq-Qalʼa', qq: 'Burlı-Qala' }, category: 'fortresses', coords: [41.73, 60.60], century: 'IV в. до н.э.' },
-  { id: 'aqshakhan-kala', name: { ru: 'Акшахан-Кала', en: 'Aqshakhan-Kala', uz: 'Oqshaxon-Qalʼa', qq: 'Aqshaxan-Qala' }, category: 'fortresses', coords: [41.86, 60.77], century: 'V-IV в. до н.э.' },
-  { id: 'chilpyk', name: { ru: 'Шылпык', en: 'Chilpyk', uz: 'Shilpiq', qq: 'Shılpıq' }, category: 'fortresses', coords: [42.00, 60.33], century: 'I-IV в. н.э.', featured: true, wonder: true },
-  { id: 'duman-kala', name: { ru: 'Думан-Кала', en: 'Duman-Kala', uz: 'Duman-Qalʼa', qq: 'Duman-Qala' }, category: 'fortresses', coords: [41.70, 60.55], century: 'III в. до н.э.' },
+  { id: 'ayaz-kala', name: { ru: 'Аяз-Кала', en: 'Ayaz-Kala', uz: 'Ayoz-Qalʼa', qq: 'Ayaz-Qala' }, category: 'fortresses', coords: [41.82, 60.83], century: 'IV-III веке до нашей эры', featured: true, wonder: true },
+  { id: 'toprak-kala', name: { ru: 'Топрак-Кала', en: 'Toprak-Kala', uz: 'Toprak-Qalʼa', qq: 'Topıraq-Qala' }, category: 'fortresses', coords: [41.93, 60.82], century: 'I-VI веке нашей эры', featured: true, wonder: true },
+  { id: 'koi-krylgan-kala', name: { ru: 'Кой-Крылган-Кала', en: 'Koi Krylgan Kala', uz: 'Koy Qırılgʻan Qalʼa', qq: 'Koy Qırılǵan Qala' }, category: 'fortresses', coords: [41.75, 60.78], century: 'IV веке до нашей эры', featured: true, wonder: true },
+  { id: 'mizdakhan', name: { ru: 'Миздахкан', en: 'Mizdakhan', uz: 'Mizdaxon', qq: 'Mizdaxan' }, category: 'fortresses', coords: [42.45, 59.60], century: 'IV веке до нашей эры', featured: true },
+  { id: 'gyaur-kala', name: { ru: 'Гяур-Кала', en: 'Gyaur-Kala', uz: 'Gʻavr-Qalʼa', qq: 'Gavr-Qala' }, category: 'fortresses', coords: [41.88, 60.69], century: 'VI-V веке до нашей эры', featured: false },
+  { id: 'janbas-kala', name: { ru: 'Джанбас-Кала', en: 'Janbas-Kala', uz: 'Jonbos-Qalʼa', qq: 'Janbas-Qala' }, category: 'fortresses', coords: [41.80, 60.78], century: 'IV веке до нашей эры', featured: false },
+  { id: 'big-guldursun', name: { ru: 'Большой Гулдурсун', en: 'Big Guldursun', uz: 'Katta Guldursun', qq: 'Ullı Guldursun' }, category: 'fortresses', coords: [41.85, 60.75], century: 'I веке до нашей эры', featured: false },
+  { id: 'small-guldursun', name: { ru: 'Малый Гулдурсун', en: 'Small Guldursun', uz: 'Kichik Guldursun', qq: 'Kishi Guldursun' }, category: 'fortresses', coords: [41.84, 60.76], century: 'I веке до нашей эры' },
+  { id: 'kyzyl-kala', name: { ru: 'Кызыл-Кала', en: 'Kyzyl-Kala', uz: 'Qizil-Qalʼa', qq: 'Qızıl-Qala' }, category: 'fortresses', coords: [41.90, 60.80], century: 'I-II веке нашей эры' },
+  { id: 'pil-kala', name: { ru: 'Пиль-Кала', en: 'Pil-Kala', uz: 'Pil-Qalʼa', qq: 'Pil-Qala' }, category: 'fortresses', coords: [41.78, 60.72], century: 'IV-III веке до нашей эры' },
+  { id: 'bazar-kala', name: { ru: 'Базар-Кала', en: 'Bazar-Kala', uz: 'Bozor-Qalʼa', qq: 'Bazar-Qala' }, category: 'fortresses', coords: [41.82, 60.70], century: 'IV веке до нашей эры' },
+  { id: 'angka-kala', name: { ru: 'Ангка-Кала', en: 'Angka-Kala', uz: 'Angka-Qalʼa', qq: 'Aŋqa-Qala' }, category: 'fortresses', coords: [41.76, 60.65], century: 'III веке до нашей эры' },
+  { id: 'kurgashin-kala', name: { ru: 'Кургашин-Кала', en: 'Kurgashin-Kala', uz: 'Kurgoshin-Qalʼa', qq: 'Qurǵashın-Qala' }, category: 'fortresses', coords: [41.79, 60.68], century: 'II веке до нашей эры' },
+  { id: 'burly-kala', name: { ru: 'Бурлы-Кала', en: 'Burly-Kala', uz: 'Burliq-Qalʼa', qq: 'Burlı-Qala' }, category: 'fortresses', coords: [41.73, 60.60], century: 'IV веке до нашей эры' },
+  { id: 'aqshakhan-kala', name: { ru: 'Акшахан-Кала', en: 'Aqshakhan-Kala', uz: 'Oqshaxon-Qalʼa', qq: 'Aqshaxan-Qala' }, category: 'fortresses', coords: [41.86, 60.77], century: 'V-IV веке до нашей эры' },
+  { id: 'chilpyk', name: { ru: 'Шылпык', en: 'Chilpyk', uz: 'Shilpiq', qq: 'Shılpıq' }, category: 'fortresses', coords: [42.00, 60.33], century: 'I-IV веке нашей эры', featured: true, wonder: true },
+  { id: 'duman-kala', name: { ru: 'Думан-Кала', en: 'Duman-Kala', uz: 'Duman-Qalʼa', qq: 'Duman-Qala' }, category: 'fortresses', coords: [41.70, 60.55], century: 'III веке до нашей эры' },
   { id: 'davkesken', name: { ru: 'Давкескен', en: 'Davkesken', uz: 'Dovkesken', qq: 'Dawkesken' }, category: 'fortresses', coords: [42.10, 58.80], century: 'XII в.' },
   { id: 'qavat-kala', name: { ru: 'Кават-Кала', en: 'Qavat-Kala', uz: 'Qavat-Qalʼa', qq: 'Qavat-Qala' }, category: 'fortresses', coords: [41.95, 60.75], century: 'XII-XIII в.' },
   { id: 'kirk-kyz', name: { ru: 'Крепость Кырк-Кыз', en: 'Kirk-Kyz Fortress', uz: 'Qirq-Qiz qalʼasi', qq: 'Qırq-Qız qalası' }, category: 'fortresses', coords: [41.87, 60.73], century: 'IX-X в.' },
@@ -41,7 +41,7 @@ export const monuments = [
   { id: 'keshirmes-baba', name: { ru: 'Мавзолей Кеширмес-Баба', en: 'Keshirmes Baba Mausoleum', uz: 'Keshirmas Boba', qq: 'Keshirmes Baba' }, category: 'mausoleums', coords: [42.30, 59.40], century: 'XV в.' },
   { id: 'erejep-khalifa', name: { ru: 'Мечеть Эрежеп-Халифа', en: 'Erejep Khalifa Mosque', uz: 'Erajap Xalifa masjidi', qq: 'Erejep Xalıypa meshiti' }, category: 'mausoleums', coords: [42.35, 59.55], century: 'XVI в.' },
   { id: 'hakim-ata', name: { ru: 'Комплекс Хаким-Ата', en: 'Hakim Ata Complex', uz: 'Hakim Ota', qq: 'Hakim Ata' }, category: 'mausoleums', coords: [42.25, 59.45], century: 'XII в.' },
-  { id: 'mizdakhan-necropolis', name: { ru: 'Некрополь Миздахкан', en: 'Mizdakhan Necropolis', uz: 'Mizdaxon nekropolisi', qq: 'Mizdaxan nekropolisi' }, category: 'mausoleums', coords: [42.45, 59.59], century: 'IV в. до н.э.' },
+  { id: 'mizdakhan-necropolis', name: { ru: 'Некрополь Миздахкан', en: 'Mizdakhan Necropolis', uz: 'Mizdaxon nekropolisi', qq: 'Mizdaxan nekropolisi' }, category: 'mausoleums', coords: [42.45, 59.59], century: 'IV веке до нашей эры' },
   { id: 'jomart-kassab', name: { ru: 'Холм Жомарт-Кассаб', en: 'Jomart Kassab Hill', uz: 'Joʻmart Qassob tepasi', qq: 'Jomart Qassab tóbesi' }, category: 'mausoleums', coords: [42.44, 59.58], century: 'X в.' },
   { id: 'qubla-ustyurt', name: { ru: 'Святилища Устюрта', en: 'Qubla Ustyurt Shrines', uz: 'Ustyurt ziyoratgohlari', qq: 'Ústirt zıyaratgahları' }, category: 'mausoleums', coords: [42.80, 57.50], century: 'XII-XV в.' },
 
@@ -65,10 +65,10 @@ export const monuments = [
   { id: 'ellikkala-museum', name: { ru: 'Археологический музей Элликкалы', en: 'Ellikkala Archaeological Museum', uz: 'Ellikqalʼa arxeologik muzeyi', qq: 'Ellikqala arxeologiyalıq muzeyi' }, category: 'museums', coords: [41.73, 60.62], century: '1990-е' },
 
   // Khorezm fortresses
-  { id: 'kalalygyr', name: { ru: 'Калалыгыр', en: 'Kalalygyr', uz: 'Kalalıgʻir', qq: 'Kalalıǵır' }, category: 'khorezm', coords: [42.10, 59.50], century: 'V в. до н.э.' },
+  { id: 'kalalygyr', name: { ru: 'Калалыгыр', en: 'Kalalygyr', uz: 'Kalalıgʻir', qq: 'Kalalıǵır' }, category: 'khorezm', coords: [42.10, 59.50], century: 'V веке до нашей эры' },
   { id: 'kavat-kala-kh', name: { ru: 'Кават-Кала', en: 'Kavat-Kala', uz: 'Kavat-Qalʼa', qq: 'Kavat-Qala' }, category: 'khorezm', coords: [41.95, 60.73], century: 'XII в.' },
-  { id: 'tok-kala', name: { ru: 'Ток-Кала', en: 'Tok-Kala', uz: 'Toq-Qalʼa', qq: 'Toq-Qala' }, category: 'khorezm', coords: [42.50, 59.55], century: 'I в. н.э.' },
-  { id: 'qumboskan-kala', name: { ru: 'Кумбоскан-Кала', en: 'Qumboskan-Kala', uz: 'Qumbasqan-Qalʼa', qq: 'Qumbosqan-Qala' }, category: 'khorezm', coords: [41.80, 60.50], century: 'IV в. до н.э.' },
+  { id: 'tok-kala', name: { ru: 'Ток-Кала', en: 'Tok-Kala', uz: 'Toq-Qalʼa', qq: 'Toq-Qala' }, category: 'khorezm', coords: [42.50, 59.55], century: 'I веке нашей эры' },
+  { id: 'qumboskan-kala', name: { ru: 'Кумбоскан-Кала', en: 'Qumboskan-Kala', uz: 'Qumbasqan-Qalʼa', qq: 'Qumbosqan-Qala' }, category: 'khorezm', coords: [41.80, 60.50], century: 'IV веке до нашей эры' },
 
   // Nature
   { id: 'ustyurt-plateau', name: { ru: 'Плато Устюрт', en: 'Ustyurt Plateau', uz: 'Ustyurt platosi', qq: 'Ústirt platosı' }, category: 'nature', coords: [42.50, 57.00], century: '', featured: true },
@@ -91,9 +91,9 @@ export const monuments = [
   { id: 'aral-ecology-monument', name: { ru: 'Памятник экологической катастрофе Арала', en: 'Aral Ecological Catastrophe Monument', uz: 'Orol ekologik falokatı haykalı', qq: 'Aral ekologiyalıq apatı heykelí' }, category: 'modern', coords: [43.78, 58.70], century: '2010-е' },
 
   // Other
-  { id: 'caravan-route', name: { ru: 'Древний караванный путь Хорезма', en: 'Ancient Caravan Route of Khorezm', uz: 'Xorazm karvon yoʻli', qq: 'Xorezm karvan jolı' }, category: 'other', coords: [41.80, 60.50], century: 'II-I тыс. до н.э.' },
-  { id: 'zoroastrian-temples', name: { ru: 'Руины храмов зороастрийцев', en: 'Zoroastrian Temple Ruins', uz: 'Zardushtiylar ibodatxonasi xarobalari', qq: 'Zardushtıylar ibadatxanası xarabalari' }, category: 'other', coords: [41.85, 60.70], century: 'VI-V в. до н.э.' },
-  { id: 'ellikkala-walls', name: { ru: 'Оборонительные стены Элликкалы', en: 'Ellikkala Defensive Walls', uz: 'Ellikqalʼa mudofaa devorlari', qq: 'Ellikqala qorǵaw diywalları' }, category: 'other', coords: [41.73, 60.63], century: 'IV в. до н.э.' },
+  { id: 'caravan-route', name: { ru: 'Древний караванный путь Хорезма', en: 'Ancient Caravan Route of Khorezm', uz: 'Xorazm karvon yoʻli', qq: 'Xorezm karvan jolı' }, category: 'other', coords: [41.80, 60.50], century: 'II-I тысячелетии до нашей эры' },
+  { id: 'zoroastrian-temples', name: { ru: 'Руины храмов зороастрийцев', en: 'Zoroastrian Temple Ruins', uz: 'Zardushtiylar ibodatxonasi xarobalari', qq: 'Zardushtıylar ibadatxanası xarabalari' }, category: 'other', coords: [41.85, 60.70], century: 'VI-V веке до нашей эры' },
+  { id: 'ellikkala-walls', name: { ru: 'Оборонительные стены Элликкалы', en: 'Ellikkala Defensive Walls', uz: 'Ellikqalʼa mudofaa devorlari', qq: 'Ellikqala qorǵaw diywalları' }, category: 'other', coords: [41.73, 60.63], century: 'IV веке до нашей эры' },
 ];
 
 export const wonders = [
