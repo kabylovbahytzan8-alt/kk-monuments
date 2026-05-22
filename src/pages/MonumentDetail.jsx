@@ -182,10 +182,10 @@ export default function MonumentDetail() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2 }}
-            className="space-y-6"
+            className="flex flex-col gap-6"
           >
             {/* Info card */}
-            <div className="glass rounded-xl p-6 sticky top-28 space-y-5">
+            <div className="glass rounded-xl p-6 sticky top-28 space-y-5 max-h-[calc(100vh-8rem)] overflow-y-auto">
               <h3 className="font-mono text-xs tracking-widest uppercase text-primary">Data</h3>
 
               <div className="space-y-4">
