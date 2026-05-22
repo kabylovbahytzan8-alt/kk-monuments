@@ -57,13 +57,6 @@ const centuryLabels = {
   ru: (c) => c || 'древних времён',
 };
 
-const facts = {
-  ru: ['Объект впервые задокументирован советскими археологами в 1930-х годах', 'ЮНЕСКО признало его культурное значение', 'Ежегодные археологические экспедиции продолжают находить новые артефакты'],
-  en: ['The site was first documented by Soviet archaeologists in the 1930s', 'UNESCO has recognized its cultural significance', 'Annual archaeological expeditions continue to uncover new artifacts'],
-  uz: ['Obyekt birinchi marta 1930-yillarda sovet arxeologlari tomonidan hujjatlashtirilgan', 'UNESCO uning madaniy ahamiyatini tan olgan', 'Yillik arxeologik ekspeditsiyalar yangi artefaktlarni ochishda davom etmoqda'],
-  qq: ['Obyekt birinshi ret 1930-jıllarda sovet arxeologlari tárepinen hújjetlestirilgen', 'YuNESKO onıń mádeniyet áhmiyetin moyınladı', 'Jıllıq arxeologiyalıq ekspeditsiyalar jaŋa artefaktlardı tabıwda dawam etpekte'],
-};
-
 export default function MonumentDetail() {
   const { id } = useParams();
   const { t, lang } = useI18n();
@@ -91,6 +84,9 @@ export default function MonumentDetail() {
   const rawCentury = monument.century || '';
   const getLabelFn = centuryLabels[lang] || centuryLabels.en;
   const centuryDisplay = getLabelFn(rawCentury);
+
+  // Get facts from monument data, fallback to empty array
+  const monumentFacts = monument.facts?.[lang] || monument.facts?.en || [];
 
   return (
     <div className="min-h-screen">
@@ -149,20 +145,22 @@ export default function MonumentDetail() {
             </motion.section>
 
             {/* Interesting Facts */}
-            <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}>
-              <h2 className="flex items-center gap-2 text-lg font-semibold mb-4">
-                <Compass className="w-5 h-5 text-primary" />
-                {t('monument.interestingFacts')}
-              </h2>
-              <div className="space-y-3">
-                {(facts[lang] || facts.en).map((fact, i) => (
-                  <div key={i} className="glass rounded-lg p-4 text-sm text-muted-foreground">
-                    <span className="text-primary font-mono mr-2">0{i + 1}</span>
-                    {fact}
-                  </div>
-                ))}
-              </div>
-            </motion.section>
+            {monumentFacts.length > 0 && (
+              <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}>
+                <h2 className="flex items-center gap-2 text-lg font-semibold mb-4">
+                  <Compass className="w-5 h-5 text-primary" />
+                  {t('monument.interestingFacts')}
+                </h2>
+                <div className="space-y-3">
+                  {monumentFacts.map((fact, i) => (
+                    <div key={i} className="glass rounded-lg p-4 text-sm text-muted-foreground">
+                      <span className="text-primary font-mono mr-2">0{i + 1}</span>
+                      {fact}
+                    </div>
+                  ))}
+                </div>
+              </motion.section>
+            )}
 
             {/* Gallery */}
             <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}>
