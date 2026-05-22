@@ -341,9 +341,9 @@ const monumentImages = {
   },
 
   'ajiniyaz-monument': {
-    cover:   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpJ8Kc4nSqUDabyVD0QH1amGp5kygWrnhLQ&s',
+    cover:   'https://podrobno.uz/upload/iblock/16a/iav1ovcx1ncsgb65iiju9gqi4tzo8u6u/4234252553.webp',
     gallery: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpJ8Kc4nSqUDabyVD0QH1amGp5kygWrnhLQ&s', 'https://yandex.ru/maps/org/azhiniyaz_kosybay_uly/163385003187/panorama/'
+      'https://podrobno.uz/upload/iblock/16a/iav1ovcx1ncsgb65iiju9gqi4tzo8u6u/4234252553.webp', 'https://yandex.ru/maps/org/azhiniyaz_kosybay_uly/163385003187/panorama/'
     ],
   },
 
