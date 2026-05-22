@@ -17,9 +17,44 @@ const descriptions = {
 
 const histories = {
   ru: (century) => `Датируемый ${century}, этот памятник сыграл значительную роль в развитии Хорезмского региона. Археологические раскопки обнаружили слои истории нескольких цивилизаций — от ранних поселений до средневекового периода.`,
-  en: (century) => `Dating back to ${century}, this monument has played a significant role in the development of the Khorezm region. Archaeological excavations have revealed layers of history spanning multiple civilizations, from the earliest settlements to the medieval period.`,
-  uz: (century) => `${century} davriga oid bu yodgorlik Xorazm mintaqasining rivojlanishida muhim rol oʻynagan. Arxeologik qazishmalar dastlabki manzilgohlardan oʻrta asr davrigacha bir nechta sivilizatsiyalarni qamrab olgan tarix qatlamlarini ochib berdi.`,
-  qq: (century) => `${century} dáwirine tiyisli bul yadgorlik Xorezm aymaqınıń rawajlanıwında áhmiyetli rol oynadı. Arxeologiyalıq qazıw isleri dáslepki mekenlestiriwlerden orta ásir dáwirine shekem bir neshe sivilizatsiyalardı qamlap alǵan tariyx qatlamların ashıp berdı.`,
+  en: (century) => `Dating back to the ${century}, this monument has played a significant role in the development of the Khorezm region. Archaeological excavations have revealed layers of history spanning multiple civilizations, from the earliest settlements to the medieval period.`,
+  uz: (century) => `${century} ga oid bu yodgorlik Xorazm mintaqasining rivojlanishida muhim rol oʻynagan. Arxeologik qazishmalar dastlabki manzilgohlardan oʻrta asr davrigacha bir nechta sivilizatsiyalarni qamrab olgan tarix qatlamlarini ochib berdi.`,
+  qq: (century) => `${century} ge tiyisli bul yadgorlik Xorezm aymaqınıń rawajlanıwında áhmiyetli rol oynadı. Arxeologiyalıq qazıw isleri dáslepki mekenlestiriwlerden orta ásir dáwirine shekem bir neshe sivilizatsiyalardı qamlap alǵan tariyx qatlamların ashıp berdı.`,
+};
+
+// Century labels per language
+const centuryLabels = {
+  en: (c) => {
+    if (!c) return 'ancient times';
+    return c
+      .replace(/веке до нашей эры/g, 'century BC')
+      .replace(/веке нашей эры/g, 'century AD')
+      .replace(/тысячелетии до нашей эры/g, 'millennium BC')
+      .replace(/в\./g, 'c.')
+      .replace(/н\.э\./g, 'AD')
+      .replace(/до н\.э\./g, 'BC');
+  },
+  uz: (c) => {
+    if (!c) return 'qadim zamonlar';
+    return c
+      .replace(/веке до нашей эры/g, '-asrda miloddan avval')
+      .replace(/веке нашей эры/g, '-asrda miloddan keyin')
+      .replace(/тысячелетии до нашей эры/g, '-ming yillikda miloddan avval')
+      .replace(/в\./g, '-asr')
+      .replace(/н\.э\./g, 'miloddan keyin')
+      .replace(/до н\.э\./g, 'miloddan avval');
+  },
+  qq: (c) => {
+    if (!c) return 'gadim zamanlar';
+    return c
+      .replace(/веке до нашей эры/g, '-ásirde biziń eramızdan burın')
+      .replace(/веке нашей эры/g, '-ásirde biziń eramızda')
+      .replace(/тысячелетии до нашей эры/g, '-mıń jıllıqta biziń eramızdan burın')
+      .replace(/в\./g, '-ásir')
+      .replace(/н\.э\./g, 'b.e.')
+      .replace(/до н\.э\./g, 'b.e.sh.');
+  },
+  ru: (c) => c || 'древних времён',
 };
 
 const facts = {
@@ -51,7 +86,11 @@ export default function MonumentDetail() {
     .slice(0, 3);
 
   const name = monument.name[lang] || monument.name.en;
-  const century = monument.century || (lang === 'ru' ? 'древних времён' : lang === 'uz' ? 'qadim zamonlar' : lang === 'qq' ? 'gadim zamanlar' : 'ancient times');
+
+  // Get century label in current language
+  const rawCentury = monument.century || '';
+  const getLabelFn = centuryLabels[lang] || centuryLabels.en;
+  const centuryDisplay = getLabelFn(rawCentury);
 
   return (
     <div className="min-h-screen">
@@ -105,7 +144,7 @@ export default function MonumentDetail() {
                 {t('monument.history')}
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                {(histories[lang] || histories.en)(century)}
+                {(histories[lang] || histories.en)(centuryDisplay)}
               </p>
             </motion.section>
 
@@ -155,7 +194,7 @@ export default function MonumentDetail() {
                     <Calendar className="w-4 h-4 text-primary/60 mt-0.5" />
                     <div>
                       <p className="text-xs text-muted-foreground">{t('monument.founded')}</p>
-                      <p className="text-sm font-medium font-mono">{monument.century}</p>
+                      <p className="text-sm font-medium font-mono">{centuryDisplay}</p>
                     </div>
                   </div>
                 )}
@@ -202,7 +241,7 @@ export default function MonumentDetail() {
                       <img src={getMonumentImage(m.id)} alt={m.name[lang]} className="w-12 h-12 rounded-lg object-cover" />
                       <div>
                         <p className="text-sm font-medium group-hover:text-primary transition-colors">{m.name[lang] || m.name.en}</p>
-                        <p className="text-xs text-muted-foreground font-mono">{m.century}</p>
+                        <p className="text-xs text-muted-foreground font-mono">{getLabelFn(m.century)}</p>
                       </div>
                     </Link>
                   ))}
