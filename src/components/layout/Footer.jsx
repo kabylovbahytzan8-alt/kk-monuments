@@ -10,6 +10,7 @@ export default function Footer() {
     <footer className="relative border-t border-border/30 bg-obsidian">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -50,14 +51,23 @@ export default function Footer() {
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary/60" />
-                <span>Nukus, Karakalpakstan</span>
+                <span>ул. Сабыра Камалова, д. 30, кв. 26, Нукус</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary/60" />
-                <span>info@kk-monuments.uz</span>
+                <a href="mailto:alpamy04@mail.ru" className="hover:text-primary transition-colors">
+                  alpamy04@mail.ru
+                </a>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <span className="text-primary/60">📞</span>
+                <a href="tel:+998936144744" className="hover:text-primary transition-colors">
+                  +998 93 614 47 44
+                </a>
               </div>
             </div>
           </div>
+
         </div>
 
         <div className="mt-16 pt-8 border-t border-border/20 flex flex-col md:flex-row justify-between items-center gap-4">
@@ -68,6 +78,7 @@ export default function Footer() {
             42.4619° N, 59.6166° E
           </p>
         </div>
+
       </div>
     </footer>
   );

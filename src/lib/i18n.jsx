@@ -163,7 +163,7 @@ const langLabels = {
   ru: { flag: '🇷🇺', label: 'Русский' },
   en: { flag: '🇬🇧', label: 'English' },
   uz: { flag: '🇺🇿', label: "O'zbekcha" },
-  qq: { flag: '🏳️', label: 'Qaraqalpaqsha' },
+  qq: { flag: 'qq', label: 'Qaraqalpaqsha' },
 };
 
 const I18nContext = createContext();
