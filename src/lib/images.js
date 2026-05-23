@@ -1,7 +1,7 @@
 // ─── Hero / main site image ────────────────────────────────────────────────
 export const images = {
   // Chilpyk — used on main hero and on Chilpyk monument page only
-  hero: 'https://media.base44.com/images/public/6a0b00097f5888beaa46cec9/fe1d5adb8_generated_d933ea04.png',
+  hero: '/images/hero.png',
 };
 
 // ─── Per-monument image sets ────────────────────────────────────────────────
@@ -17,7 +17,7 @@ const monumentImages = {
   // ── Fortresses ──────────────────────────────────────────────────────────
 
   'chilpyk': {
-    cover: 'https://karakalpakstan.travel/data/uploads/00_media/2025/avgust/photo_2025-08-04_17-39-24.jpg',
+    cover: '/images/chilpyk-cover.jpg',
     gallery: [
       'https://karakalpakstan.travel/data/uploads/00_media/2025/avgust/photo_2025-08-04_17-39-24.jpg',
       'https://ic.pics.livejournal.com/appassionata_lr/13101813/1771506/1771506_800.jpg',
