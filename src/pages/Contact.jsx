@@ -99,7 +99,7 @@ export default function Contact() {
               <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
               <div>
                 <h3 className="font-semibold mb-1">Address</h3>
-                <p className="text-sm text-muted-foreground">Nukus, Karakalpakstan, Uzbekistan</p>
+                <p className="text-sm text-muted-foreground">ул. Сабыра Камалова, д. 30, кв. 26, Нукус</p>
                 <p className="text-xs text-muted-foreground font-mono mt-1">42.4619° N, 59.6166° E</p>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function Contact() {
               <Mail className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
               <div>
                 <h3 className="font-semibold mb-1">Email</h3>
-                <p className="text-sm text-muted-foreground">info@kk-monuments.uz</p>
+                <p className="text-sm text-muted-foreground">alpamy04@mail.ru</p>
               </div>
             </div>
 
@@ -116,7 +116,7 @@ export default function Contact() {
               <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
               <div>
                 <h3 className="font-semibold mb-1">Phone</h3>
-                <p className="text-sm text-muted-foreground">+998 61 222 00 00</p>
+                <p className="text-sm text-muted-foreground">+998 93 614 47 44</p>
               </div>
             </div>
 
