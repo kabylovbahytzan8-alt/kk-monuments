@@ -119,21 +119,6 @@ export default function Contact() {
                 <p className="text-sm text-muted-foreground">+998 93 614 47 44</p>
               </div>
             </div>
-
-            {/* Social links */}
-            <div className="glass rounded-xl p-6">
-              <h3 className="font-mono text-xs tracking-widest uppercase text-primary mb-4">Social</h3>
-              <div className="flex gap-3">
-                {['Telegram', 'Instagram', 'Facebook', 'YouTube'].map(platform => (
-                  <span
-                    key={platform}
-                    className="px-3 py-1.5 rounded-full text-xs glass hover:border-primary/30 transition-all cursor-pointer"
-                  >
-                    {platform}
-                  </span>
-                ))}
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>
