@@ -33,8 +33,9 @@ const translations = {
       title: 'Связаться с нами', name: 'Имя', email: 'Email', message: 'Сообщение', send: 'Отправить',
     },
     footer: {
-      rights: 'Все права защищены', madeWith: 'Создано с любовью к Каракалпакстану',
-    },
+  rights: 'Все права защищены',
+  madeWith: 'Для тех, кто чувствует душу древних народов Южного Приаралья',
+},
     common: {
       readMore: 'Подробнее', viewAll: 'Смотреть все', back: 'Назад', loading: 'Загрузка...',
       dayMonument: 'Памятник дня',
@@ -72,7 +73,8 @@ const translations = {
       title: 'Contact Us', name: 'Name', email: 'Email', message: 'Message', send: 'Send',
     },
     footer: {
-      rights: 'All rights reserved', madeWith: 'Made with love for Karakalpakstan',
+  rights: 'All rights reserved',
+  madeWith: 'For those who feel the soul of the ancient peoples of the Southern Aral region',
     },
     common: {
       readMore: 'Read More', viewAll: 'View All', back: 'Back', loading: 'Loading...',
@@ -111,8 +113,9 @@ const translations = {
       title: 'Biz bilan bogʻlaning', name: 'Ism', email: 'Email', message: 'Xabar', send: 'Yuborish',
     },
     footer: {
-      rights: 'Barcha huquqlar himoyalangan', madeWith: 'Qoraqalpogʻistonga muhabbat bilan yaratilgan',
-    },
+  rights: 'Barcha huquqlar himoyalangan',
+  madeWith: 'Janubiy Orolboʻyi xalqlarining qadimiy ruhini his etuvchilar uchun',
+},
     common: {
       readMore: 'Batafsil', viewAll: 'Hammasini koʻrish', back: 'Orqaga', loading: 'Yuklanmoqda...',
       dayMonument: 'Kunning yodgorligi',
@@ -150,8 +153,9 @@ const translations = {
       title: 'Biz benen baylanısıń', name: 'Atıńız', email: 'Email', message: 'Xabar', send: 'Jiberiw',
     },
     footer: {
-      rights: 'Barlıq huqıqlar qorǵalǵan', madeWith: 'Qaraqalpaqstanǵa muhabbat penen jaratılǵan',
-    },
+  rights: 'Barlıq huqıqlar qorǵalǵan',
+  madeWith: 'Araldıń qubla boyı xalıqlarınıń tariyxı hám mádeniyetin súyiwshiler ushın',
+},
     common: {
       readMore: 'Tolıǵıraq', viewAll: 'Barlıǵın kóriw', back: 'Artqa', loading: 'Júklenip atır...',
       dayMonument: 'Kún yadgorligi',
