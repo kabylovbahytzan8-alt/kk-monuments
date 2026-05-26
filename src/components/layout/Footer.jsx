@@ -21,9 +21,7 @@ export default function Footer() {
                 KK<span className="text-primary">Monuments</span>
               </span>
             </div>
-            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              {t('footer.madeWith')}
-            </p>
+          
           </div>
 
           {/* Nav */}
